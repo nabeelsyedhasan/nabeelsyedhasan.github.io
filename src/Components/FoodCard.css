@@ -1,0 +1,122 @@
+/* Card container */
+.card {
+  margin: 0 10px; /* Gap between cards */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  background-color: #9feb9b; /* Background color */
+  overflow: visible; /* Ensure content does not overflow */
+  height: 400px; /* Fixed height for the card */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Align content vertically */
+  margin-bottom: 20px; /* Add margin bottom to create gap between cards */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+  
+  /* Card content container */
+  .card-content {
+    padding: 16px; 
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  /* Card image container */
+  .card-img {
+    max-height: 200px;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Card image */
+  .card-img img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  /* Title */
+  .card-details h3 {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333; 
+  }
+  
+  /* Description */
+  .card-details p {
+    margin-top: 8px; /* Spacing above the description */
+    font-size: 14px; 
+    color: #666666;
+  }
+  
+  /* Button */
+  .card-details button {
+    margin-top: auto; /* Push button to bottom */
+    padding: auto; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Button border radius */
+    background-color: #4caf50; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 14px; /* Button text size */
+    cursor: pointer; /* Show pointer on hover */
+  }
+  
+  /* Options menu */
+  .options-menu {
+    margin-top: auto; /* Spacing above the options menu */
+  }
+  
+  .options-menu h4 {
+    margin-bottom: 8px; /* Spacing below the heading */
+    font-size: 16px; /* Heading font size */
+    font-weight: bold; /* Bold font weight */
+    color: #333333; /* Heading color */
+  }
+  
+  .options-menu ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default list padding */
+  }
+  
+  .options-menu li {
+    margin-top: 8px; /* Spacing between options */
+    font-size: 14px; /* Option font size */
+    color: #666666; /* Option text color */
+    cursor: pointer; /* Show pointer on hover */
+  }
+  
+
+  /* Dropdown menu container */
+  .form-control1 {
+    background-color: #4caf50; /* Green background color */
+    color: #ffffff; /* White text color */
+  } 
+ 
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .arrow.prev {
+    left: 10px;
+  }
+  
+  .arrow.next {
+    right: 10px;
+  }
+  
+  .arrows {
+    font-size: 34px;
+    color: rgb(215, 30, 30);
+  }
+

@@ -1,0 +1,136 @@
+.footer {
+    position: fixed;
+   /* max-height: 75px; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.1 rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+
+  .carousel-full-width {
+    width: 100%;
+    max-width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+
+  .carousel-full-width img {
+    height: 580px; /* Set a fixed height for the images */
+    object-fit: cover; /* Scale the images to fit the container */
+    width: 100%; /* Set the width to 100% */
+  }
+  
+  .carousel-full-width .carousel-item {
+    height: 580px; /* Set the height of the carousel item */
+  }
+
+  .checkout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .map-container {
+    height: 400px;
+    width: 100%;
+  }
+
+  .app-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .bg-video {
+    background-image: url('bgvid.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  .cart-video {
+    background-image: url('cartvid.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  .translucent-box {
+    background-color: rgba(255, 255, 255, 0.5); /* translucent white background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .grand-total-checkout-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+  }
+  
+  .grand-total-box {
+    background-color: rgba(255, 255, 255, 0.5); /* translucent white background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+  }
+
+  .cart {
+    position: relative; 
+  }
+  
+  .checkout-btn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #34C759;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #2E865F;
+  }
+
+  
+  .background-image {
+    position: absolute; /* Add this */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2021/02/19/07/38/delivery-man-6029429_1280.png'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+    opacity: 0.4;
+  }
+
+  

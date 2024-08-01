@@ -1,0 +1,32 @@
+.proceed-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 5px;
+  }
+  
+  .App-link {
+    background-color: #34C759; /* Made the button green */
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+ .App-link:hover {
+    background-color: #0e8e1d; /* Change the background color to dark green on hover */
+  }
+
+
+  .online-button {
+    display: flex; /* Added flexbox to center vertically and horizontally */
+    flex-direction: column; /* Added flex-direction to stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Set the height to 100vh to center vertically */
+    text-align: center;
+  }

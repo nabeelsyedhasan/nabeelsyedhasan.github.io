@@ -1,0 +1,58 @@
+/* .btn-group1 {
+    display: flex;
+    
+     flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #F5F8FB;
+    transition: border 0.3s ease;
+  } */
+  
+  /* .btn-group1:hover {
+      border: 1px solid #dc6008
+  } */
+  
+  .increment-btn, .decrement-btn {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #08c515;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  
+  
+  button:hover {
+      background-color: #f3f9ff;
+  }
+  
+  .para {
+    margin: 0; /* Remove default margin */
+    border-left: 1px solid #F5F8FB;
+    border-right: 1px solid #F5F8FB;
+    line-height: 50px; /* Vertically center text */
+    flex: 1; /* Distribute remaining space equally */
+  }
+  
+  .para1 {
+    margin: 0; /* Remove default margin */
+    border-top: 1px solid #F5F8FB;
+    line-height: 50px; /* Vertically center text */
+    text-align: left; /* Align text to center */
+  }
+  
+  .item-image {
+    max-width: 200; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+   /* Ensures the image is displayed as a block element */
+    margin-bottom: 5px; /* Adds a small margin at the bottom for spacing */
+  }
+
+  

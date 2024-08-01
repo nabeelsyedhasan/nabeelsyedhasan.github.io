@@ -1,0 +1,36 @@
+.about-us-container {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #100c0c; 
+    background-color: #ffffff; 
+    padding: 55px; 
+  }
+  
+  .about-us-heading {
+    color: #00ff00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  
+  .about-us-container p {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .linkd,
+  .git {
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .linkd a,
+  .git a {
+    color: #000000; /* Black color for social icon */
+    margin-right: 20px; /* Increase margin-right for spacing between icons */
+    font-size: 24px; /* Set font size for icons */
+  }
+  
+  .linkd a:hover,
+  .git a:hover {
+    color: #00ff00; /* Green color on hover */
+  }
